@@ -1,0 +1,17 @@
+[package]
+name = "zed-42header"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+zed_extension_api = "*"
+chrono = "*"
+serde = "*"
+serde_json = "*"
+
+[lib]
+crate-type = ["cdylib"]
+
+[profile.release]
+opt-level = "z"
+lto = true
