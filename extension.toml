@@ -1,0 +1,7 @@
+id = "42header"
+name = "42 Header"
+version = "0.1.0"
+schema_version = 1
+authors = ["Osama"]
+description = "Inserts the 42 school header format in source files"
+repository = "https://github.com/Osama-137/zed-42header"
